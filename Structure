@@ -1,0 +1,16 @@
+ring_appraisal/
+ring_appraisal/
+settings.py
+urls.py
+wsgi.py
+app/
+models.py
+views.py
+forms.py
+templates/
+ring_info.html
+report.html
+__init__.py
+__pycache__/
+requirements.txt
+manage.py

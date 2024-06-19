@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Appraisal Report</title>
+</head>
+<body>
+    <h1>Appraisal Report</h1>
+    <ul>
+    {% for ring in rings %}
+        <li>{{ ring }}</li>
+    {% empty %}
+        <li>No rings found.</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
